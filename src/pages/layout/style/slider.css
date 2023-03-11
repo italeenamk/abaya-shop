@@ -1,0 +1,112 @@
+
+#slider-content {
+    background-image: url("../image/hero-home.jpg");
+}
+/*logo-navbar-content*/
+.logo-nav-content {
+    background: #00000029;
+}
+.logo-nav-content hr {
+    width: 100%;
+    background: #fff2e080;
+}
+.logo-nav-content .container-fluid {}
+.logo-nav-content .container-fluid .row {
+    padding: 19px 10%;
+    padding-bottom: 0px;
+}
+.logo-nav-content .container-fluid .row .col-md-4 {
+    margin-bottom: -81px;
+    margin-top: 2px;
+}
+.logo-nav-content .container-fluid .row .col-md-3 {
+    text-align: right !important;
+    margin-bottom: -81px;
+    margin-top: 2px;
+}
+.logo-navbar-icon-links {}
+.logo-navbar-icon-links ul {
+    display: flex;
+}
+.logo-navbar-icon-links ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+.logo-navbar-icon-links ul li .fa-1x {
+    color: #FFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.logo-nav-right-icon-link {}
+.logo-nav-right-icon-link ul {
+    display: flex;
+}
+.logo-nav-right-icon-link ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+.logo-nav-right-icon-link ul li .fa-1x {
+    color: #FFFF;
+    cursor: pointer;
+    font-size: 14px;
+}
+.logo-navbar-logo-content {}
+.logo-navbar-logo-content img {
+    cursor: pointer;
+}
+/*list-navbar-content*/
+.list-navbar-content {
+    background: #00000029;
+}
+.list-navbar-content .container-fluid {}
+.list-navbar-content .container-fluid .row {}
+.list-navbar-content .container-fluid .row .col-md-12 {}
+.list-navbar-list-content {}
+.list-navbar-list-content ul {
+    display: flex;
+    justify-content: center;
+}
+.list-navbar-list-content ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+.list-navbar-list-content ul li p {}
+.list-navbar-list-content ul li p .drop {}
+.list-navbar-list-content ul li p .drop:before {
+    content: '';
+    display: inline-block;
+    border: 5px solid;
+    border-color: #fff transparent transparent;
+    margin: -4px 3px;
+}
+.list-navbar-list-content .dropdown-menu a {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.list-navbar-list-content .dropdown-menu a:hover {
+    background: #DBA372;
+}
+.list-navbar-list-content .dropdown-menu {
+    top: 156%;
+    left: -1px;
+    min-width: 11rem;
+    border-radius: 0;
+    border: 0;
+    background: aqua;
+    padding: 0;
+}
+
+.list-navbar-list-content ul li p {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
