@@ -43,6 +43,10 @@
     margin-top: 30px;
     padding: 9px 19px;
 }
+.sale-theme-text-content button .fa-1x {
+    font-size: 9px;
+    margin-bottom: 0px;
+}
 .sale-theme-text-content button:hover{
     transform: translateY(-10px);
 }

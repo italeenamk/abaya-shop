@@ -12,7 +12,7 @@ const Sale_theme = () => {
                           <div className="sale-theme-left-colum-background-content">
                               <div className="sale-theme-text-content">
                                   <h2>MID SEASON<br/> UP TO 50%<br/> OFF</h2>
-                                  <button>VIEW PRODUCTS <FontAwesomeIcon icon={ faAngleRight } /></button>
+                                  <button>VIEW PRODUCTS <FontAwesomeIcon icon={ faAngleRight } className="fa-1x" /></button>
                               </div>
                           </div>
                       </div>
@@ -20,7 +20,7 @@ const Sale_theme = () => {
                           <div className="sale-theme-right-colum-background-content">
                               <div className="sale-theme-text-content">
                                   <h2>SPECIAL TODAYS<br/> UP TO 30% OFF</h2>
-                                  <button>VIEW PRODUCTS <FontAwesomeIcon icon={ faAngleRight } /></button>
+                                  <button>VIEW PRODUCTS <FontAwesomeIcon icon={ faAngleRight } className="fa-1x" /></button>
                               </div>
                           </div>
                       </div>

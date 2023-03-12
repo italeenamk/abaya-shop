@@ -8,6 +8,7 @@
 }
 .logo-nav-content hr {
     width: 100%;
+    margin-top: 14px;
     background: #fff2e080;
 }
 .logo-nav-content .container-fluid {}
