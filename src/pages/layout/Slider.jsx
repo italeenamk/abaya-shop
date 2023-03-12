@@ -1,6 +1,6 @@
 import './style/slider.css';
 import navbar_logo_img from './image/logo-aisha.png';
-import {faArrowDown} from "@fortawesome/free-solid-svg-icons";
+import {faAngleRight, faArrowDown} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Slider = () => {
@@ -45,7 +45,7 @@ const Slider = () => {
               <div className="list-navbar-content">
                   <div className="container-fluid">
                       <div className="row">
-                          <div className="col-md-6 col-sm-12">
+                          <div className="col-md-6 text-right col-sm-12">
                               <div className="list-navbar-list-content">
                                   <ul>
                                       <li><p href="">Home</p></li>
@@ -66,8 +66,8 @@ const Slider = () => {
                                   </ul>
                               </div>
                           </div>
-                          <div className="col-md-6 col-sm-12">
-                              <div className="list-navbar-list-content">
+                          <div className="col-md-6 text-left col-sm-12">
+                              <div className="list-navbar-right-list-content">
                                   <ul>
                                       <li>
                                           <div className="dropdown">
@@ -133,6 +133,23 @@ const Slider = () => {
                           {/*        </ul>*/}
                           {/*    </div>*/}
                           {/*</div>*/}
+                      </div>
+                  </div>
+              </div>
+              {/*slider-text-colum-content*/}
+              <div className="slider-text-colum-content">
+                  <div className="container-fluid">
+                      <div className="row">
+                          <div className="col-md-6 col-sm-12">
+                              <div className="slider-text-column-container">
+                                  <span>RAMADAN SALE</span>
+                                  <h2>HIJAB UP TO <br/>80% OFF</h2>
+                                  <p>Nulla porta dictumst vitae scelerisque sollicitudin ut amet
+                                      commodo pulvinar diam donec eu sit accumsan laoreet mattis aliquam justo</p>
+                                  <button>SHOP NOW <FontAwesomeIcon icon={ faAngleRight } /></button>
+                              </div>
+                          </div>
+                          <div className="col-md-6 col-sm-12"></div>
                       </div>
                   </div>
               </div>
