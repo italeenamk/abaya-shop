@@ -143,12 +143,13 @@
 .brand-text-content h3 {
     font-family: 'Lato', sans-serif;
     letter-spacing: 3px;
+    margin-top: 10px;
     font-size: 12px;
     text-align: center;
     font-weight: 700;
 }
 .brand-logo-content {
-    margin: 25px 0;
+    margin: 35px 0;
 }
 .brand-logo-content img {
     width: 88%;
