@@ -79,3 +79,27 @@
     cursor: pointer;
     color: #DBA372;
 }
+/*last-btn*/
+.product-card-last-btn-content {}
+.product-card-last-btn-content .row {}
+.product-card-btn {
+    margin-top: -77px;
+}
+.product-card-btn button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #DBA372;
+    background: white;
+    border: 1px solid #DBA372;
+    padding: 14px 38px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 11px;
+}
+.product-card-btn button:hover{
+    transform: translateY(-10px);
+}
+.product-card-btn button .fa-1x {
+    margin-left: 10px;
+}

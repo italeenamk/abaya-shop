@@ -1,0 +1,48 @@
+#sale-theme-content {
+    margin-top: 40px;
+}
+#sale-theme-content .container-fluid {}
+#sale-theme-content .container-fluid .row {}
+#sale-theme-content .container-fluid .row .col-md-6 {
+    padding: 0;
+}
+/*left*/
+.sale-theme-left-colum-background-content {
+    background-image: url("../image/offer1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 143%;
+}
+/*right*/
+.sale-theme-right-colum-background-content {
+    background-image: url("../image/offer2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 143%;
+    padding-left: 60px;
+}
+.sale-theme-text-content {
+    padding-right: 60px;
+    padding-top: 122px;
+}
+.sale-theme-text-content h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: white;
+}
+.sale-theme-text-content button {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+    background: white;
+    margin-top: 30px;
+    padding: 9px 19px;
+}
+.sale-theme-text-content button:hover{
+    transform: translateY(-10px);
+}
