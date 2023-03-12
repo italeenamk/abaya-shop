@@ -13,7 +13,7 @@ const Top_Nav = () => {
                      <div className="col-md-12 text-center">
                          <div className="top-nav-link-content">
                              <p>FREE & FAST SHIPPING ON ALL USA ORDERS OVER $50
-                                 <span>SHOP NOW <FontAwesomeIcon icon={ faAngleRight } /></span>
+                                 <button>SHOP NOW <FontAwesomeIcon icon={ faAngleRight } /></button>
                              </p>
                          </div>
                      </div>

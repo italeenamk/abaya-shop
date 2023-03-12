@@ -14,11 +14,18 @@
     letter-spacing: 0.5px;
     font-family: 'Lato', sans-serif;
 }
-.top-nav-link-content p span {
-    color: #DBA372;
+.top-nav-link-content p  button:hover {
+    transform: translateY(-8px);
+}
+.top-nav-link-content p button {
+    color: #DBA372 !important;
+    text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
+    border: none;
     letter-spacing: 3px;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
     margin-left: 15px;
 }

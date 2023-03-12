@@ -143,6 +143,7 @@ const Slider = () => {
                           <div className="col-md-6 col-sm-12">
                               <div className="slider-text-column-container">
                                   <span>RAMADAN SALE</span>
+                                  <hr/>
                                   <h2>HIJAB UP TO <br/>80% OFF</h2>
                                   <p>Nulla porta dictumst vitae scelerisque sollicitudin ut amet
                                       commodo pulvinar diam donec eu sit accumsan laoreet mattis aliquam justo</p>

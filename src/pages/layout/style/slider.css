@@ -178,6 +178,12 @@
 }
 .slider-text-colum-content .container-fluid .row .col-md-6 {}
 .slider-text-column-container {}
+.slider-text-column-container hr {
+    height: 1px;
+    background: #DBA372;
+    width: 28px;
+    margin-top: 6px;
+}
 .slider-text-column-container span {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
