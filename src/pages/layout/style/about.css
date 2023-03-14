@@ -1,0 +1,64 @@
+#about-me-content {
+    margin-top: 10%;
+    background-image: url("../image/bg-pattern-gray.jpg");
+}
+#about-me-content .container-fluid {}
+#about-me-content .container-fluid .row {
+    padding: 0 10%;
+    padding-top: 9%;
+}
+.about-img-content {}
+.about-img-content img {}
+.about-text-content {
+    margin-top: -23px;
+}
+.about-text-content p {
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;
+    color: #11111145;
+}
+.about-text-content span {
+    color: #ffffff00;
+    font-size: 49px;
+    font-weight: 200;
+    border-top: 1px solid #dba372;
+    padding: 0 4px;
+}
+.about-text-content h3 {
+    letter-spacing: 1px;
+    font-size: 36px;
+    margin-top: -46px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.about-text-content h5 {
+    color: #11111180;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.467em;
+}
+.about-text-content button {
+    background: #222222;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    padding: 15px 32px;
+    margin-top: 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+    transition: 0.5s;
+    letter-spacing: 3px;
+}
+.about-text-content button:hover {
+    transform: translateY(-10px);
+}
+.about-text-content button .fa-1x {
+    font-size: 10px;
+    margin-left: 6px;
+}
