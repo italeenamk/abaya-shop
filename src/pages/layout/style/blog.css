@@ -1,0 +1,29 @@
+#blog-content {}
+.blog-content {}
+.blog-content .container-fluid {}
+.blog-content .container-fluid .row {
+    padding: 0 10%;
+}
+.blog-card-content {
+    margin-top: 45px;
+}
+.blog-card-content img {
+    cursor: pointer;
+}
+.blog-card-content h3 {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 23px;
+}
+.blog-card-content p {
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-top: 9px;
+    color: #11111173;
+}
