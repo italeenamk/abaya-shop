@@ -8,6 +8,7 @@ import About from "../layout/About";
 import Services from "../layout/Services";
 import Blog from "../layout/Blog";
 import Hijab from "../layout/Hijab";
+import Footer from "../layout/Footer";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
           <Services/>
           <Blog/>
           <Hijab/>
+          <Footer/>
       </>
   )
 }
