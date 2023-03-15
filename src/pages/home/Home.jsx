@@ -7,6 +7,7 @@ import Sale_theme from "../layout/Sale_theme";
 import About from "../layout/About";
 import Services from "../layout/Services";
 import Blog from "../layout/Blog";
+import Hijab from "../layout/Hijab";
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
           <About/>
           <Services/>
           <Blog/>
+          <Hijab/>
       </>
   )
 }

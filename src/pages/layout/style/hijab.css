@@ -1,0 +1,88 @@
+#hijab-content {}
+.hijab-content {
+    margin-top: 50px;
+}
+.hijab-content .container-fluid {}
+.hijab-content .container-fluid .row {
+    padding: 0 10%;
+    margin-bottom: 30px;
+}
+.hijab-colum-right-img-content {}
+.hijab-colum-right-img-content img {
+    cursor: pointer;
+}
+.hijab-left-colum-content {}
+.hijab-left-colum-content .container-fluid {}
+.hijab-left-colum-content .row {
+    padding: 0 !important;
+}
+.hijab-left-colum-content .container-fluid .row .col-md-6 {
+    padding: 0 !important;
+}
+.hijab-colum-left-img-content:hover {
+}
+.hijab-colum-left-img-content {
+    /*margin-bottom: 31px;*/
+    background-image: url("../image/gallery1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 241px;
+    transition: linear 0.5s;
+    cursor: pointer;
+    display: block;
+}
+.hijab-colum-img-two-left-img-content {
+    /*margin-bottom: 31px;*/
+    background-image: url("../image/gallery2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 241px;
+    transition: linear 0.5s;
+    cursor: pointer;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0 0 0 / 50%);
+    color: #f1f1f1;
+    width: 89%;
+    transition: 0.8s;
+    opacity: 0;
+    font-size: 20px;
+    padding: 121px;
+    text-align: center;
+}
+
+.hijab-colum-left-img-content:hover .overlay {
+    opacity: 1;
+}
+.hijab-colum-img-two-left-img-content:hover .overlay {
+    opacity: 1;
+}
+.hijab-colum-img-three-left-img-content {
+    /*margin-bottom: 31px;*/
+    background-image: url("../image/gallery3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 241px;
+    transition: linear 0.5s;
+    cursor: pointer;
+    display: block;
+}
+.hijab-colum-img-three-left-img-content:hover .overlay {
+    opacity: 1;
+}
+.hijab-colum-img-four-left-img-content {
+    /*margin-bottom: 31px;*/
+    background-image: url("../image/gallery4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 241px;
+    transition: linear 0.5s;
+    cursor: pointer;
+    display: block;
+}
+.hijab-colum-img-four-left-img-content:hover .overlay {
+    opacity: 1;
+}
