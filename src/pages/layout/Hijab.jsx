@@ -1,9 +1,6 @@
 import './style/hijab.css';
+import './style/Mobile_screen.css';
 import hijab_right_colum_img from './image/gallery5-hightlight.jpg';
-import hijab_left_colum_img_1 from './image/gallery1.jpg';
-import hijab_left_colum_img_2 from './image/gallery2.jpg';
-import hijab_left_colum_img_3 from './image/gallery3.jpg';
-import hijab_left_colum_img_4 from './image/gallery4.jpg';
 
 
 const Hijab = () => {

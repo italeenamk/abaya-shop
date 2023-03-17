@@ -1,4 +1,5 @@
 import './style/product_card.css';
+import './style/Mobile_screen.css';
 import product_img_1 from "./image/product-dummy11-300x300.jpg";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleRight, faStar} from "@fortawesome/free-solid-svg-icons";

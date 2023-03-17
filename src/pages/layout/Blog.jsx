@@ -1,4 +1,5 @@
 import './style/blog.css';
+import './style/Mobile_screen.css';
 import blog_colum_img_1 from './image/post-img1-768x427.jpg';
 import blog_colum_img_2 from './image/post-img2-768x427.jpg';
 import blog_colum_img_3 from './image/post-img3-768x427.jpg';

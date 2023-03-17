@@ -1,4 +1,5 @@
 import './style/services.css';
+import './style/Mobile_screen.css';
 import services_img_1 from './image/testimonial-sect1-pp3gh7w78ij1y0dp5ubh7fkpl7yut14n9hqerbzvkg.jpg';
 import services_img_2 from './image/testimonials-sect2-pp69otm3d2ciebud2t5ghzcq714075zc7nkd0ll85s.jpg';
 import {faAngleRight, faStar} from "@fortawesome/free-solid-svg-icons";

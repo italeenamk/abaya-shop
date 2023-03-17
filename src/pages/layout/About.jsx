@@ -1,4 +1,5 @@
 import './style/about.css';
+import './style/Mobile_screen.css';
 import about_img from './image/about-sect-pp3fhw4ja78xfvqdo2w8z7qf2eqjytrkrsggclz08e.png';
 import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

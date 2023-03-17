@@ -1,4 +1,5 @@
 import './style/footer.css';
+import './style/Mobile_screen.css';
 import delivery_img from "./image/added-truck.png";
 import dollar_img from "./image/dollar.png";
 import credit_card_img from "./image/added-credit-card.png";

@@ -1,4 +1,5 @@
 import './style/product_card.css';
+import './style/Mobile_screen.css';
 import product_img_1 from './image/product-dummy11-300x300.jpg';
 import product_img_2 from './image/product-dummy2-300x300.jpg';
 import product_img_3 from './image/product-dummy3-300x300.jpg';

@@ -1,4 +1,5 @@
 import './style/sale_theme.css';
+import './style/Mobile_screen.css';
 import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
