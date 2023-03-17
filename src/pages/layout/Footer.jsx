@@ -85,6 +85,27 @@ const Footer = () => {
                   <div className="container-fluid">
                       <div className="row">
                           <div className="col-md-3 col-sm-12">
+                              {/*<nav className="navbar navbar-expand-md navbar-dark">*/}
+                              {/*    <div className="footer-list-first-colum-content">*/}
+                              {/*    <h3>CUSTOMER CARE</h3>*/}
+                              {/*    </div>*/}
+                              {/*    <button className="navbar-toggler" type="button" data-toggle="collapse"*/}
+                              {/*            data-target="#collapsibleNavbar">*/}
+                              {/*        <span className="navbar-toggler-icon"></span>*/}
+                              {/*    </button>*/}
+                              {/*    <div className="collapse navbar-collapse" id="collapsibleNavbar">*/}
+                              {/*        <div className="footer-list-first-colum-content">*/}
+                              {/*            <ul>*/}
+                              {/*                <li><a href="">Account</a></li>*/}
+                              {/*                <li><a href="">Contact Us</a></li>*/}
+                              {/*                <li><a href="">Shipping & Delivery</a></li>*/}
+                              {/*                <li><a href="">Returns & Exchanges</a></li>*/}
+                              {/*                <li><a href="">Size Guide</a></li>*/}
+                              {/*                <li><a href="">FAQ</a></li>*/}
+                              {/*            </ul>*/}
+                              {/*        </div>*/}
+                              {/*    </div>*/}
+                              {/*</nav>*/}
                               <div className="footer-list-first-colum-content">
                                   <h3>CUSTOMER CARE</h3>
                                   <ul>
