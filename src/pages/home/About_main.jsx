@@ -1,6 +1,11 @@
 import Top_Nav from "../layout/Top_Nav";
 import Slider from "../layout/Slider";
 import About_slider from "../layout/About_slider";
+import About from "../layout/About";
+import Footer from "../layout/Footer";
+import Hijab from "../layout/Hijab";
+import View_card from "../layout/View_card";
+import About_card from "../layout/About_card";
 
 
 const About_main = () => {
@@ -8,6 +13,10 @@ const About_main = () => {
       <>
           <Top_Nav/>
           <About_slider/>
+          <About/>
+          <About_card/>
+          <Hijab/>
+          <Footer/>
       </>
   )
 }

@@ -8,7 +8,7 @@ const About_slider = () => {
       <>
           <section id="about-slider-content">
               {/*logo-navbar-content*/}
-              <div className="logo-nav-content">
+              <div className="-about-logo-nav-content">
                   <div className="container-fluid">
                       <div className="row">
                           <div className="col-md-4 col-sm-12">
@@ -42,7 +42,7 @@ const About_slider = () => {
                   </div>
               </div>
               {/*list-navbar-content*/}
-              <div className="list-navbar-content">
+              <div className="-about-list-navbar-content">
                   <div className="container-fluid">
                       <div className="row">
                           <div className="col-md-6 text-right col-sm-12">
@@ -141,7 +141,7 @@ const About_slider = () => {
                   <div className="container-fluid">
                       <div className="row">
                           <div className="col-md-6 col-sm-12">
-                              <div className="slider-text-column-container">
+                              <div className="-about-slider-text-column-container">
                                   <span>ABOUT US</span>
                                   <hr/>
                                   <h2>ABOUT US</h2>
