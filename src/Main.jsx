@@ -1,10 +1,12 @@
 
 import Home from "./pages/home/Home";
+import About_main from "./pages/home/About_main";
 
 const Main = () => {
   return(
       <>
-          <Home/>
+          {/*<Home/>*/}
+          <About_main/>
       </>
   )
 }

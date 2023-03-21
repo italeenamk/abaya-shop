@@ -508,6 +508,30 @@
     .footer-input-btn-content button {
         margin-left: 1px !important;
     }
+    .footer-list-content .container-fluid .row .col-md-2 {
+        padding: 16px !important;
+    }
+    .footer-list-content .container-fluid .row .col-md-4 {
+        padding: 16px !important;
+    }
+    .footer-copy-right-text-content p {
+        text-align: center !important;
+        font-size: 12px !important;
+        letter-spacing: 0.5px !important;
+    }
+    .footer-list-first-colum-content ul li a {
+        letter-spacing: 0.2px !important;
+        font-size: 14px !important;
+    }
+    .footer-list-first-colum-content ul li {
+        margin: 10px 0 !important;
+    }
+    .footer-list-first-colum-content ul {
+        margin-top: 23px !important;
+    }
+    .footer-list-first-colum-content h3 {
+        font-size: 15px !important;
+    }
     }
 /*mobile-375-screen-content*/
 @media only screen and (max-width: 375px){
@@ -675,6 +699,84 @@
     .services-container-card-content .card h5 {
         font-size: 17px !important;
         margin: 15px 0 !important;
+    }
+    .blog-content .container-fluid .row {
+        padding: 0 5% !important;
+    }
+    .hijab-colum-left-img-content {
+        display: none !important;
+    }
+    .hijab-colum-img-three-left-img-content, .hijab-colum-img-four-left-img-content {
+        display: none !important;
+    }
+    .hijab-content .container-fluid .row {
+        padding: 0 7% !important;
+    }
+    .hijab-colum-img-two-left-img-content {
+        display: none !important;
+    }
+    .hijab-colum-right-img-content {
+        margin-top: -71px !important;
+    }
+    .delivery-card-content .container-fluid .row {
+        padding: 0 5% !important;
+        padding-top: 70px !important;
+    }
+    .footer-card-icon-link-content h4 {
+        font-size: 14px !important;
+    }
+    .footer-card-icon-link-content p {
+        font-size: 13px !important;
+        letter-spacing: 0.5px !important;
+        margin-top: -4px !important;
+    }
+    .footer-input-content .container-fluid .row {
+        padding: 0px 5.5% !important;
+        padding-top: 10px !important;
+        margin-top: 50px !important;
+    }
+    .footer-link-heading-content p {
+        font-size: 11px !important;
+    }
+    .footer-link-heading-content h3 {
+        font-size: 32px !important;
+    }
+    .footer-input-content {
+        margin-top: -41px !important;
+    }
+    .footer-input-btn-content {
+        display: block !important;
+    }
+    .footer-input-btn-content input {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+    }
+    .footer-input-btn-content button {
+        margin-left: 1px !important;
+    }
+    .footer-list-content .container-fluid .row .col-md-2 {
+        padding: 16px !important;
+    }
+    .footer-list-content .container-fluid .row .col-md-4 {
+        padding: 16px !important;
+    }
+    .footer-copy-right-text-content p {
+        text-align: center !important;
+        font-size: 12px !important;
+        letter-spacing: 0.5px !important;
+    }
+    .footer-list-first-colum-content ul li a {
+        letter-spacing: 0.2px !important;
+        font-size: 14px !important;
+    }
+    .footer-list-first-colum-content ul li {
+        margin: 10px 0 !important;
+    }
+    .footer-list-first-colum-content ul {
+        margin-top: 23px !important;
+    }
+    .footer-list-first-colum-content h3 {
+        font-size: 15px !important;
     }
 }
 /*mobile-425-screen-content*/
@@ -844,9 +946,104 @@
         font-size: 17px !important;
         margin: 15px 0 !important;
     }
+    .blog-content .container-fluid .row {
+        padding: 0 5% !important;
+    }
+    .hijab-colum-left-img-content {
+        display: none !important;
+    }
+    .hijab-colum-img-three-left-img-content, .hijab-colum-img-four-left-img-content {
+        display: none !important;
+    }
+    .hijab-content .container-fluid .row {
+        padding: 0 7% !important;
+    }
+    .hijab-colum-img-two-left-img-content {
+        display: none !important;
+    }
+    .hijab-colum-right-img-content {
+        margin-top: -71px !important;
+    }
+    .delivery-card-content .container-fluid .row {
+        padding: 0 5% !important;
+        padding-top: 70px !important;
+    }
+    .footer-card-icon-link-content h4 {
+        font-size: 14px !important;
+    }
+    .footer-card-icon-link-content p {
+        font-size: 13px !important;
+        letter-spacing: 0.5px !important;
+        margin-top: -4px !important;
+    }
+    .footer-input-content .container-fluid .row {
+        padding: 0px 5.5% !important;
+        padding-top: 10px !important;
+        margin-top: 50px !important;
+    }
+    .footer-link-heading-content p {
+        font-size: 11px !important;
+    }
+    .footer-link-heading-content h3 {
+        font-size: 32px !important;
+    }
+    .footer-input-content {
+        margin-top: -41px !important;
+    }
+    .footer-input-btn-content {
+        display: block !important;
+    }
+    .footer-input-btn-content input {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+    }
+    .footer-input-btn-content button {
+        margin-left: 1px !important;
+    }
+    .footer-list-content .container-fluid .row .col-md-2 {
+        padding: 16px !important;
+    }
+    .footer-list-content .container-fluid .row .col-md-4 {
+        padding: 16px !important;
+    }
+    .footer-copy-right-text-content p {
+        text-align: center !important;
+        font-size: 12px !important;
+        letter-spacing: 0.5px !important;
+    }
+    .footer-list-first-colum-content ul li a {
+        letter-spacing: 0.2px !important;
+        font-size: 14px !important;
+    }
+    .footer-list-first-colum-content ul li {
+        margin: 10px 0 !important;
+    }
+    .footer-list-first-colum-content ul {
+        margin-top: 23px !important;
+    }
+    .footer-list-first-colum-content h3 {
+        font-size: 15px !important;
+    }
 }
 /*laptop-1024-screen-content*/
 @media only screen and (max-width: 1024px){
+    .about-img-content img {
+        margin-bottom: -28px !important;
+        padding-bottom: 28px !important;
+        padding-top: 22px !important;
+        margin-top: 20px !important;
+    }
+    .about-text-content button {
+        font-size: 10px !important;
+        margin-top: 4px !important;
+    }
+    .about-text-content {
+        margin-top: -30px !important;
+    }
+    .about-text-content h5 {
+        font-size: 13px !important;
+        margin-top: 20px !important;
+    }
 }
 /*large-laptop-1440-screen-content*/
 @media only screen and (max-width: 1440px){
