@@ -329,3 +329,9 @@
 .-about-list-navbar-content .container-fluid .row .col-md-6 {
     padding: 0;
 }
+/*shop-slider-content*/
+#shop-slider-content {
+    background-image: url("../image/hero-shop.jpg");
+}
+#shop-slider-content .container-fluid {}
+#shop-slider-content .container-fluid .row {}

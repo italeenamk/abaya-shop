@@ -1,12 +1,10 @@
 import './style/slider.css';
 import navbar_logo_img from "./image/logo-aisha.png";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 
-const About_slider = () => {
+const Shop_Slider = () => {
   return(
       <>
-          <section id="about-slider-content">
+          <section id="shop-slider-content">
               {/*logo-navbar-content*/}
               <div className="-about-logo-nav-content">
                   <div className="container-fluid">
@@ -101,10 +99,10 @@ const About_slider = () => {
                       <div className="row">
                           <div className="col-md-6 col-sm-12">
                               <div className="-about-slider-text-column-container">
-                                  <span>ABOUT US</span>
+                                  <span>SHOP</span>
                                   <hr/>
-                                  <h2>ABOUT US</h2>
-                                  <p>HOME > ABOUT</p>
+                                  <h2>SHOP</h2>
+                                  <p>HOME > SHOP</p>
                               </div>
                           </div>
                           <div className="col-md-6 col-sm-12"></div>
@@ -116,4 +114,4 @@ const About_slider = () => {
   )
 }
 
-export default About_slider;
+export default Shop_Slider;
