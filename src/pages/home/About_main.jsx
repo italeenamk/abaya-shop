@@ -6,6 +6,9 @@ import Footer from "../layout/Footer";
 import Hijab from "../layout/Hijab";
 import View_card from "../layout/View_card";
 import About_card from "../layout/About_card";
+import Quality from "../layout/Quality";
+import Story from "../layout/Story";
+import Services from "../layout/Services";
 
 
 const About_main = () => {
@@ -14,6 +17,8 @@ const About_main = () => {
           <Top_Nav/>
           <About_slider/>
           <About/>
+          <Story/>
+          <Quality/>
           <About_card/>
           <Hijab/>
           <Footer/>
