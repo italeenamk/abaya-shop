@@ -181,5 +181,33 @@
     padding-top: 9%;
 }
 .about-text-content hr {
+    margin-top: 17px;
+}
+.contact-me-content {
+    margin-top: -46px;
+}
+.contact-me-list-second-colum-content {
+    margin-bottom: 31px;
+    margin-top: 30px;
+}
+.contact-me-list-second-colum-content img {
+    margin-top: -3px;
+}
+.contact-me-list-second-colum-content ul {
     margin-top: 27px;
+}
+.contact-me-list-second-colum-content ul li {
+    list-style: none;
+    transition: 0.2s;
+    margin: 10px 0;
+}
+.contact-me-list-second-colum-content ul li span {
+    text-decoration: none;
+    color: #11111180;
+    transition: 0.4s;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.footer-icon-list-content .fa-1x {
+    color: #11111180;
 }
