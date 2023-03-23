@@ -3,5 +3,74 @@
 #contact-form-content .container-fluid .row {
     padding: 0 10%;
 }
-.contact-form-content {}
-.contact-map-content {}
+.contact-form-content {
+    margin-bottom: -53px;
+    margin-top: 70px;
+}
+.contact-form-content h3 {
+    font-size: 24px;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+.contact-form-content p {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #11111180;
+    line-height: 1.467em;
+    margin-bottom: 25px;
+    margin-top: 6px;
+}
+.contact-form-content input::placeholder {
+    color: #11111180 !important;
+}
+.contact-form-content input {
+    outline: none;
+    margin: 8px 0;
+    border-color: #11111133;
+    width: 99%;
+    padding-left: 18px;
+    font-family: 'Lato', sans-serif;
+    height: 50px;
+    border-width: 1px 1px 1px 1px;
+    font-size: 15px;
+    color: #11111180;
+}
+.contact-form-content textarea::placeholder {
+    color: #11111180 !important;
+}
+.contact-form-content textarea {
+    outline: none;
+    margin: 8px 0;
+    border-color: #11111133;
+    font-family: 'Lato', sans-serif;
+    width: 99%;
+    padding-left: 18px;
+    height: 117px;
+    padding-top: 11px;
+    border-width: 1px 1px 1px 1px;
+    font-size: 15px;
+    color: #11111180;
+}
+.contact-form-content button {
+    background: #222222;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    padding: 15px 32px;
+    margin-top: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+    transition: 0.5s;
+    letter-spacing: 3px;
+}
+.contact-form-content button:hover {
+    transform: translateY(-10px);
+}
+.contact-form-content button .fa-1x {
+    font-size: 10px;
+    margin-left: 6px;
+}
+.contact-map-content {
+    background-image: url("../image/goole-map.jpg");
+}

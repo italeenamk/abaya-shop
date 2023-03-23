@@ -1,4 +1,7 @@
 import './style/contact_form.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import map from './image/goole-map.jpg';
 
 
 const Contact_form = () => {
@@ -14,10 +17,13 @@ const Contact_form = () => {
                               <input type="text" placeholder="Your Name"/>
                               <input type="email" placeholder="Email Address"/>
                               <textarea className="" placeholder="Message" rows="5" id="comment"></textarea>
+                              <button>SEND MESSAGE <FontAwesomeIcon icon={ faAngleRight } className="fa-1x" /></button>
                           </div>
                       </div>
                       <div className="col-md-6 col-sm-12">
-                          <div className="contact-map-content"></div>
+                          <div className="contact-map-content">
+                              fhjd
+                          </div>
                       </div>
                   </div>
               </div>
