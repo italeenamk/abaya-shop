@@ -170,3 +170,16 @@
 .story-right-img-content {
     padding-left: 6px;
 }
+
+/*contact-me-content*/
+#contact-me-content {
+    background: #f2f2f2;
+}
+#contact-me-content .container-fluid {}
+#contact-me-content .container-fluid .row {
+    padding: 0 10%;
+    padding-top: 9%;
+}
+.about-text-content hr {
+    margin-top: 27px;
+}

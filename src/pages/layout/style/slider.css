@@ -341,3 +341,9 @@
 }
 #blog-slider-content .container-fluid {}
 #blog-slider-content .container-fluid .row {}
+/*contact-slider-content*/
+#contact-slider-content {
+    background-image: url("../image/hero-contact.jpg");
+}
+#contact-slider-content .container-fluid {}
+#contact-slider-content .container-fluid .row {}
