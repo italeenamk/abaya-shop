@@ -22,7 +22,33 @@ const Contact_form = () => {
                       </div>
                       <div className="col-md-6 col-sm-12">
                           <div className="contact-map-content">
-                              fhjd
+                              <div className="row">
+                                  <div className="col-md-8 col-sm-12">
+                                      <div className="contact-me-location-content">
+                                          <div className="card">
+                                              <div className="row">
+                                                  <div className="col-md-8 col-sm-12">
+                                                      <div className="contact-page-card-left-content">
+                                                          <h4>lastminute.com London Eye</h4>
+                                                          <p>Riverside Building, County Hall, London SE1 7PB, United Kingdom</p>
+                                                          <h5>4.5 <a href="">151,949 reviews</a></h5>
+                                                          <span>View larger map</span>
+                                                      </div>
+                                                  </div>
+                                                  <div className="col-md-4 col-sm-12 text-center">
+                                                      <div className="contact-page-right-content">
+                                                          <i className="fa-solid fa-signs-post fa-1x"></i>
+                                                          <div className="contact-page-card-left-content">
+                                                              <span>Direction</span>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="col-md-4 col-sm-12"></div>
+                              </div>
                           </div>
                       </div>
                   </div>

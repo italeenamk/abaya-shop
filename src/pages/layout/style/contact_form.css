@@ -73,4 +73,69 @@
 }
 .contact-map-content {
     background-image: url("../image/goole-map.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contact-me-location-content {}
+.contact-me-location-content .card {
+    border: none;
+    padding: 10px;
+    border-radius: 0;
+}
+.contact-page-card-left-content {}
+.contact-page-card-left-content h4 {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.contact-map-content .row {
+    padding: 0 14px !important;
+}
+.contact-me-location-content {
+    padding: 10px 0;
+}
+.contact-me-location-content .row {
+    padding: 0 !important;
+}
+.contact-page-card-left-content p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -3px;
+    font-family: 'Lato', sans-serif;
+    color: #111111b8;
+    line-height: 1.467em;
+}
+.contact-page-card-left-content h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -11px;
+    margin-bottom: 2px;
+    color: #404040;
+}
+.contact-page-card-left-content h5 a:hover {
+    color: #1a73e8;
+}
+.contact-page-card-left-content h5 a {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: #196cdb;
+}
+.contact-page-card-left-content span:hover {
+    text-decoration: underline;
+}
+.contact-page-card-left-content span {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #196cdb;
+}
+.contact-page-right-content {}
+.contact-page-right-content .fa-1x {
+    color: #1867d1;
+    font-size: 18px;
 }
