@@ -75,10 +75,12 @@
     background-image: url("../image/goole-map.jpg");
     background-position: center;
     background-size: cover;
+    cursor: pointer;
 }
 .contact-me-location-content {}
 .contact-me-location-content .card {
     border: none;
+    box-shadow: 0px 0px 6px 1px #80808057;
     padding: 10px;
     border-radius: 0;
 }
@@ -138,4 +140,47 @@
 .contact-page-right-content .fa-1x {
     color: #1867d1;
     font-size: 18px;
+}
+/*contact-me-bottom-content*/
+.contact-me-bottom-content {
+    padding-top: 291px;
+    margin-bottom: -123px;
+}
+.contact-me-bottom-content .row {}
+.contact-me-bottom-map-content {
+    padding-top: 46px;
+}
+.contact-me-bottom-map-content img:hover {
+    border: 5px solid white;
+}
+.contact-me-bottom-map-content img {
+    height: 50px;
+    box-shadow: 0px 0px 6px 1px #80808045;
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.contact-me-bottom-right-content {
+    display: flex;
+    margin-bottom: 38px;
+    justify-content: end;
+}
+.contact-me-bottom-right-content .card {
+    border: none;
+    box-shadow: 0px 0px 6px 1px #80808057;
+    padding: 10px 5px;
+    border-radius: 0;
+    width: 39px;
+    text-align: center;
+}
+.contact-me-bottom-right-content .card .fa-1x:hover {
+    color: black;
+}
+.contact-me-bottom-right-content .card .fa-1x {
+    font-size: 21px;
+    color: #0000009c;
+}
+.contact-me-bottom-right-content .card hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }

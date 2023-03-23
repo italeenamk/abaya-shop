@@ -1,7 +1,7 @@
 import './style/contact_form.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
-import map from './image/goole-map.jpg';
+import map from './image/Screen-Shot-2016-06-23-at-3.31.37-PM.jpg';
 
 
 const Contact_form = () => {
@@ -48,6 +48,24 @@ const Contact_form = () => {
                                       </div>
                                   </div>
                                   <div className="col-md-4 col-sm-12"></div>
+                              </div>
+                              <div className="contact-me-bottom-content">
+                                  <div className="row">
+                                      <div className="col-md-6">
+                                          <div className="contact-me-bottom-map-content">
+                                              <img src={ map } alt=""/>
+                                          </div>
+                                      </div>
+                                      <div className="col-md-6 text-right">
+                                          <div className="contact-me-bottom-right-content">
+                                              <div className="card">
+                                                  <i className="fa-solid fa-plus fa-1x"></i>
+                                                  <hr/>
+                                                  <i className="fa-solid fa-minus fa-1x"></i>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
                               </div>
                           </div>
                       </div>
