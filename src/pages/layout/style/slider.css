@@ -335,3 +335,9 @@
 }
 #shop-slider-content .container-fluid {}
 #shop-slider-content .container-fluid .row {}
+/*shop-slider-content*/
+#blog-slider-content {
+    background-image: url("../image/hero-blog.jpg");
+}
+#blog-slider-content .container-fluid {}
+#blog-slider-content .container-fluid .row {}
