@@ -1,6 +1,8 @@
 #footer-background-color-content {
     background: #222222;
     margin-top: 109px;
+    position: relative;
+    z-index: 1;
 }
 .delivery-card-content .container-fluid {}
 .delivery-card-content .container-fluid .row {

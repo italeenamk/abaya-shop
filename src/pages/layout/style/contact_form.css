@@ -143,7 +143,7 @@
 }
 /*contact-me-bottom-content*/
 .contact-me-bottom-content {
-    padding-top: 291px;
+    padding-top: 301px;
     margin-bottom: -123px;
 }
 .contact-me-bottom-content .row {}
@@ -183,4 +183,54 @@
 .contact-me-bottom-right-content .card hr {
     margin-top: 8px;
     margin-bottom: 8px;
+}
+/*media-query-content*/
+/*mobile-320-screen-content*/
+@media only screen and (max-width: 375px) {
+    #contact-slider-content {
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #contact-slider-content {
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .-about-slider-text-column-container h2 {
+        font-size: 47px;
+    }
+    #contact-slider-content {
+        background-position: center;
+        background-size: cover;
+    }
+    #contact-form-content .container-fluid .row {
+        padding: 0 5%;
+    }
+    .contact-me-bottom-map-content {
+        padding-top: 46px;
+        margin-bottom: -90px;
+    }
+    .contact-page-right-content {
+        margin-top: -47px;
+        margin-left: 158px;
+    }
+    .contact-me-bottom-content {
+        padding-top: 120px;
+    }
+    .contact-form-content p {
+        font-size: 13px;
+    }
+    .contact-form-content h3 {
+        font-size: 22px;
+    }
+    #contact-me-content .container-fluid .row .col-md-6 {
+        padding-left: 0 !important;
+    }
+    #contact-me-content {
+        background: #f2f2f2;
+        padding-top: 20px;
+    }
 }

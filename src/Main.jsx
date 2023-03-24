@@ -9,10 +9,10 @@ const Main = () => {
   return(
       <>
           {/*<Home/>*/}
-          {/*<About_main/>*/}
+          <About_main/>
           {/*<Shop/>*/}
           {/*<Blog_main/>*/}
-          <Contact_us/>
+          {/*<Contact_us/>*/}
       </>
   )
 }

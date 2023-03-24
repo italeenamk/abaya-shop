@@ -259,7 +259,7 @@
     color: #ffffff80;
 }
 .-about-slider-text-column-container h2 {
-    font-size: 64px;
+    font-size: 41px !important;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
@@ -333,11 +333,47 @@
 #shop-slider-content {
     background-image: url("../image/hero-shop.jpg");
 }
+@media only screen and (max-width: 320px) {
+    #shop-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #shop-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #shop-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+}
 #shop-slider-content .container-fluid {}
 #shop-slider-content .container-fluid .row {}
 /*shop-slider-content*/
 #blog-slider-content {
     background-image: url("../image/hero-blog.jpg");
+}
+@media only screen and (max-width: 320px) {
+    #blog-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #blog-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #blog-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
 }
 #blog-slider-content .container-fluid {}
 #blog-slider-content .container-fluid .row {}
@@ -347,3 +383,47 @@
 }
 #contact-slider-content .container-fluid {}
 #contact-slider-content .container-fluid .row {}
+/*about-slider-content*/
+@media only screen and (max-width: 320px) {
+    #about-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+    .story-right-img-content {
+        display: none;
+    }
+    .quality-left-colum-img {
+        margin-top: 0 !important;
+    }
+    .quality-content .container-fluid .row {
+        padding: 0 5% !important;
+        padding-top: 9% !important;
+    }
+    .quality-content .container-fluid .row .col-md-6 {
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #about-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+    .story-right-img-content {
+        display: none;
+    }
+    .quality-left-colum-img {
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #about-slider-content {
+        background-size: cover;
+        background-position: center;
+    }
+    .story-right-img-content {
+        display: none;
+    }
+    .quality-left-colum-img {
+        margin-top: 0 !important;
+    }
+}

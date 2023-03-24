@@ -780,7 +780,7 @@
     }
 }
 /*mobile-425-screen-content*/
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
     .logo-navbar-icon-links ul {
         display: flex;
         justify-content: center !important;
