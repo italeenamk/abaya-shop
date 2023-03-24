@@ -402,6 +402,9 @@
     .quality-content .container-fluid .row .col-md-6 {
         padding-left: 0 !important;
     }
+    .about-text-content p {
+        margin-top: 50px;
+    }
 }
 @media only screen and (max-width: 375px) {
     #about-slider-content {
@@ -414,6 +417,12 @@
     .quality-left-colum-img {
         margin-top: 0 !important;
     }
+    .about-text-content p {
+        margin-top: 50px !important;
+    }
+    .quality-content .container-fluid .row .col-md-6 {
+        padding-left: 0 !important;
+    }
 }
 @media only screen and (max-width: 425px) {
     #about-slider-content {
@@ -425,5 +434,39 @@
     }
     .quality-left-colum-img {
         margin-top: 0 !important;
+    }
+    .about-text-content p {
+        margin-top: 50px !important;
+    }
+    .quality-content .container-fluid .row .col-md-6 {
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 770px) and (min-width: 588px) {
+    .story-container-testimonials-content h3 {
+        font-size: 23px !important;
+        margin-top: -54px !important;
+    }
+    .story-container-testimonials-content h5 {
+        margin-top: 15px !important;
+        font-size: 13px !important;
+    }
+    .story-text-content h4 {
+        margin-top: 3px !important;
+        font-size: 15px !important;
+    }
+    .found-me-content h2 {
+        margin-top: 0px !important;
+        font-size: 17px !important;
+    }
+    .quality-left-colum-img {
+        margin-top: 0 !important;
+    }
+    .quality-content .container-fluid .row {
+        padding: 0 5% !important;
+        padding-top: 9% !important;
+    }
+    .story-right-img-content img {
+        height: 431px !important;
     }
 }
