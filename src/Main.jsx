@@ -1,5 +1,4 @@
 import {render} from "react-dom";
-import {Router, Routes, BrowserRouter as Route, BrowserRouter} from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 import Contact_us from "./pages/home/Contact_us";
@@ -7,6 +6,7 @@ import Home from "./pages/home/Home";
 import About_main from "./pages/home/About_main";
 import Shop from "./pages/home/Shop";
 import Blog_main from "./pages/home/Blog_main";
+import About from "./pages/layout/About";
 
 const Main = () => {
 
@@ -17,10 +17,9 @@ const Main = () => {
           <Router>
               <Home/>
               <Routes>
-                  <Route exact path="/" element={<Home/>}/>
-                  <Route exact path="/about" element={<About_main/>}/>
                   <Route exact path="/shop" element={<Shop/>}/>
                   <Route exact path="/blog" element={<Blog_main/>}/>
+                  <Route exact path="/about" element={<About/>}/>
                   <Route exact path="/contact" element={<Contact_us/>}/>
               </Routes>
           </Router>
