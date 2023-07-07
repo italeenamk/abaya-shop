@@ -9,14 +9,7 @@ import Home from "./pages/home/Home";
 const Main = () => {
   return(
       <>
-          <BrowserRouter>
-              <Routes>
-                      <Route path="/" element={<Home/>}/>
-                      <Route path="/about" element={<About_main/>}/>
-                      {/*<Route path="contact" element={<Contact />} />*/}
-                      {/*<Route path="*" element={<NoPage />} />*/}
-              </Routes>
-          </BrowserRouter>
+            <Contact_us/>
           {/*<Home/>*/}
           {/*<About_main/>*/}
           {/*<Shop/>*/}
