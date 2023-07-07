@@ -10,12 +10,25 @@ const Main = () => {
     const user = false;
   return(
       <>
+          <Router>
+              <Topbar/>
+              <Routes>
+                  <Route exact path="/" element={<Home/>}/>
+                  <Route exact path="/login" element={user ? <Home/> :<Login/>}/>
+                  <Route exact path="/register" element={user ? <Home/> :<Registor/>}/>
+                  <Route exact path="/post" element={<Post/>}/>
+                  <Route path="/write" element={user ? <Write/> :<Registor/>}/>
+                  <Route path="/settings" element={user ? <Settings/> :<Registor/>}/>
+                  <Route path="/post/:postId" element={<Single/>}/>
+              </Routes>
+          </Router>
+
             {/*<Contact_us/>*/}
           {/*<Home/>*/}
           {/*<About_main/>*/}
           {/*<Shop/>*/}
           {/*<Blog_main/>*/}
-          <Contact_us/>
+          {/*<Contact_us/>*/}
       </>
   )
 }
