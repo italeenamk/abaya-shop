@@ -49,7 +49,9 @@ const Slider = () => {
                           <div className="col-md-6 text-right col-sm-12">
                               <div className="list-navbar-list-content">
                                   <ul>
-                                      <li><p href="">Home</p></li>
+                                      <Link style={{textDecoration: "none", color:"inherit"}} to="/">
+                                          <li><p href="">Home</p></li>
+                                      </Link>
                                       <Link style={{textDecoration: "none", color:"inherit"}} to="/aboutme">
                                           <li><p href="">ABOUT US</p></li>
                                       </Link>
