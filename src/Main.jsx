@@ -3,6 +3,10 @@ import {Router, Routes, BrowserRouter as Route, BrowserRouter} from "react-route
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 import Contact_us from "./pages/home/Contact_us";
+import Home from "./pages/home/Home";
+import About_main from "./pages/home/About_main";
+import Shop from "./pages/home/Shop";
+import Blog_main from "./pages/home/Blog_main";
 
 const Main = () => {
 
@@ -11,19 +15,17 @@ const Main = () => {
   return(
       <>
           <Router>
-              <Topbar/>
+              <Home/>
               <Routes>
                   <Route exact path="/" element={<Home/>}/>
-                  <Route exact path="/login" element={user ? <Home/> :<Login/>}/>
-                  <Route exact path="/register" element={user ? <Home/> :<Registor/>}/>
-                  <Route exact path="/post" element={<Post/>}/>
-                  <Route path="/write" element={user ? <Write/> :<Registor/>}/>
-                  <Route path="/settings" element={user ? <Settings/> :<Registor/>}/>
-                  <Route path="/post/:postId" element={<Single/>}/>
+                  <Route exact path="/about" element={<About_main/>}/>
+                  <Route exact path="/shop" element={<Shop/>}/>
+                  <Route exact path="/blog" element={<Blog_main/>}/>
+                  <Route exact path="/contact" element={<Contact_us/>}/>
               </Routes>
           </Router>
 
-            {/*<Contact_us/>*/}
+
           {/*<Home/>*/}
           {/*<About_main/>*/}
           {/*<Shop/>*/}
