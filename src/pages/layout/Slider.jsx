@@ -50,8 +50,9 @@ const Slider = () => {
                               <div className="list-navbar-list-content">
                                   <ul>
                                       <li><p href="">Home</p></li>
-                                      <Link style={{textDecoration: "none", color:"inherit"}} to="/register">Register</Link>
-                                      <li><p href="">ABOUT US</p></li>
+                                      <Link style={{textDecoration: "none", color:"inherit"}} to="/aboutme">
+                                          <li><p href="">ABOUT US</p></li>
+                                      </Link>
                                       <li>
                                           <div className="dropdown">
                                               <p type="button" className="btndropdown-toggle"
@@ -90,7 +91,9 @@ const Slider = () => {
                                           </div>
                                       </li>
                                       <li><p href="">BLOG</p></li>
-                                      <li><p href="">CONTACT US</p></li>
+                                      <Link style={{textDecoration: "none", color:"inherit"}} to="/contact">
+                                          <li><p href="">CONTACT US</p></li>
+                                      </Link>
                                   </ul>
                               </div>
                           </div>
