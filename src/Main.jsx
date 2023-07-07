@@ -9,10 +9,10 @@ import Home from "./pages/home/Home";
 const Main = () => {
   return(
       <>
-            <Contact_us/>
+            {/*<Contact_us/>*/}
           {/*<Home/>*/}
           {/*<About_main/>*/}
-          {/*<Shop/>*/}
+          <Shop/>
           {/*<Blog_main/>*/}
           {/*<Contact_us/>*/}
       </>
