@@ -19,7 +19,7 @@ const Main = () => {
               <Routes>
                   <Route exact path="/shop" element={<Shop/>}/>
                   <Route exact path="/blog" element={<Blog_main/>}/>
-                  <Route exact path="/about" element={<About/>}/>
+                  <Route exact path="/aboutme" element={<About_main/>}/>
                   <Route exact path="/contact" element={<Contact_us/>}/>
               </Routes>
           </Router>
