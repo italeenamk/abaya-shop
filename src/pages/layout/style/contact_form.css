@@ -72,10 +72,10 @@
     margin-left: 6px;
 }
 .contact-map-content {
-    background-image: url("../image/goole-map.jpg");
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
+    /*background-image: url("../image/goole-map.jpg");*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*cursor: pointer;*/
 }
 .contact-me-location-content {}
 .contact-me-location-content .card {

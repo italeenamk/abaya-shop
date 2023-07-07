@@ -48,29 +48,29 @@ const Contact_form = () => {
                                       {/*</div>*/}
                                       <iframe
                                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106428.10877525054!2d72.72249275850982!3d33.530547068860535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9b8a0fbc4dbb%3A0x7a23bdc39fa31808!2sJangal%2C%20Attock%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1688742769968!5m2!1sen!2s"
-                                          width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy"
+                                          width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"
                                           referrerPolicy="no-referrer-when-downgrade"></iframe>
                                   </div>
                                   <div className="col-md-4 col-sm-12"></div>
                               </div>
-                              <div className="contact-me-bottom-content">
-                                  <div className="row">
-                                      <div className="col-md-6">
-                                          <div className="contact-me-bottom-map-content">
-                                              <img src={ map } alt=""/>
-                                          </div>
-                                      </div>
-                                      <div className="col-md-6 text-right">
-                                          <div className="contact-me-bottom-right-content">
-                                              <div className="card">
-                                                  <i className="fa-solid fa-plus fa-1x"></i>
-                                                  <hr/>
-                                                  <i className="fa-solid fa-minus fa-1x"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
+                              {/*<div className="contact-me-bottom-content">*/}
+                              {/*    <div className="row">*/}
+                              {/*        <div className="col-md-6">*/}
+                              {/*            <div className="contact-me-bottom-map-content">*/}
+                              {/*                <img src={ map } alt=""/>*/}
+                              {/*            </div>*/}
+                              {/*        </div>*/}
+                              {/*        <div className="col-md-6 text-right">*/}
+                              {/*            <div className="contact-me-bottom-right-content">*/}
+                              {/*                <div className="card">*/}
+                              {/*                    <i className="fa-solid fa-plus fa-1x"></i>*/}
+                              {/*                    <hr/>*/}
+                              {/*                    <i className="fa-solid fa-minus fa-1x"></i>*/}
+                              {/*                </div>*/}
+                              {/*            </div>*/}
+                              {/*        </div>*/}
+                              {/*    </div>*/}
+                              {/*</div>*/}
                           </div>
                       </div>
                   </div>
