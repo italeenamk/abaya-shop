@@ -1,5 +1,6 @@
 import './style/slider.css';
 import navbar_logo_img from './image/logo-aisha.png';
+import {Link} from "react-router-dom";
 import {faAngleRight, faArrowDown} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -49,6 +50,7 @@ const Slider = () => {
                               <div className="list-navbar-list-content">
                                   <ul>
                                       <li><p href="">Home</p></li>
+                                      <Link style={{textDecoration: "none", color:"inherit"}} to="/register">Register</Link>
                                       <li><p href="">ABOUT US</p></li>
                                       <li>
                                           <div className="dropdown">
