@@ -12,19 +12,19 @@ const Main = () => {
 
   return(
       <>
-          <Router>
-              <Home/>
-              <Routes>
-                  <Route exact path="/shop" element={<Shop/>}/>
-                  <Route exact path="/blog" element={<Blog_main/>}/>
-                  <Route exact path="/aboutme" element={<About_main/>}/>
-                  <Route exact path="/contact" element={<Contact_us/>}/>
-              </Routes>
-          </Router>
+          {/*<Router>*/}
+          {/*    /!*<Home/>*!/*/}
+          {/*    <Routes>*/}
+          {/*        <Route exact path="/shop" element={<Shop/>}/>*/}
+          {/*        <Route exact path="/blog" element={<Blog_main/>}/>*/}
+          {/*        <Route exact path="/aboutme" element={<About_main/>}/>*/}
+          {/*        <Route exact path="/contact" element={<Contact_us/>}/>*/}
+          {/*    </Routes>*/}
+          {/*</Router>*/}
 
 
           {/*<Home/>*/}
-          {/*<About_main/>*/}
+          <About_main/>
           {/*<Shop/>*/}
           {/*<Blog_main/>*/}
           {/*<Contact_us/>*/}
