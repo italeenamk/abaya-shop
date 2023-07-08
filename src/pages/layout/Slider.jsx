@@ -43,7 +43,7 @@ const Slider = () => {
                   </div>
               </div>
               {/*list-navbar-content*/}
-              
+
               {/*slider-text-colum-content*/}
               <div className="slider-text-colum-content">
                   <div className="container-fluid">
