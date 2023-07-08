@@ -23,9 +23,9 @@ const Main = () => {
           {/*</Router>*/}
 
 
-          {/*<Home/>*/}
+          <Home/>
           {/*<About_main/>*/}
-          <Shop/>
+          {/*<Shop/>*/}
           {/*<Blog_main/>*/}
           {/*<Contact_us/>*/}
       </>
