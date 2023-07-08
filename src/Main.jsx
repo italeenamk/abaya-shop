@@ -9,9 +9,7 @@ import Blog_main from "./pages/home/Blog_main";
 import About from "./pages/layout/About";
 
 const Main = () => {
-
-    const currentUser = true;
-    const user = false;
+    
   return(
       <>
           <Router>
