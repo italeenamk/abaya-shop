@@ -54,47 +54,6 @@ const Navbar = () => {
                               </ul>
                           </div>
                       </div>
-                      {/*<div className="col-md-12 text-center col-sm-12">*/}
-                      {/*    <div className="list-navbar-list-content">*/}
-                      {/*        <ul>*/}
-                      {/*            <li><p href="">Home</p></li>*/}
-                      {/*            <li><p href="">ABOUT US</p></li>*/}
-                      {/*            <li>*/}
-                      {/*                <div className="dropdown">*/}
-                      {/*                    <p type="button" className="btndropdown-toggle"*/}
-                      {/*                            data-toggle="dropdown">*/}
-                      {/*                        SHOP <span className="drop"></span>*/}
-                      {/*                    </p>*/}
-                      {/*                    <div className="dropdown-menu">*/}
-                      {/*                        <a className="dropdown-item" href="#">TRACK ORDER</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">LOGIN</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">PRODUCT DETAILS</a>*/}
-                      {/*                    </div>*/}
-                      {/*                </div>*/}
-                      {/*            </li>*/}
-                      {/*            <li>*/}
-                      {/*                <div className="dropdown">*/}
-                      {/*                    <p type="button" className="btndropdown-toggle"*/}
-                      {/*                       data-toggle="dropdown">*/}
-                      {/*                        PAGES <span className="drop"></span>*/}
-                      {/*                    </p>*/}
-                      {/*                    <div className="dropdown-menu">*/}
-                      {/*                        <a className="dropdown-item" href="#">OUR LOCATIONS</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">OUR TEAM</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">PRICING</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">FAQ</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">TESTIMONIALS</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">404</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">COMING SOON</a>*/}
-                      {/*                        <a className="dropdown-item" href="#">POPUPS BANNER</a>*/}
-                      {/*                    </div>*/}
-                      {/*                </div>*/}
-                      {/*            </li>*/}
-                      {/*            <li><p href="">BLOG</p></li>*/}
-                      {/*            <li><p href="">CONTACT US</p></li>*/}
-                      {/*        </ul>*/}
-                      {/*    </div>*/}
-                      {/*</div>*/}
                   </div>
               </div>
           </div>
