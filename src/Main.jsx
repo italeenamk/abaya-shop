@@ -9,7 +9,7 @@ import Blog_main from "./pages/home/Blog_main";
 import About from "./pages/layout/About";
 
 const Main = () => {
-    
+
   return(
       <>
           <Router>
