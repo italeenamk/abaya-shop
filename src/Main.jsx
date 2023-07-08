@@ -24,8 +24,8 @@ const Main = () => {
 
 
           {/*<Home/>*/}
-          <About_main/>
-          {/*<Shop/>*/}
+          {/*<About_main/>*/}
+          <Shop/>
           {/*<Blog_main/>*/}
           {/*<Contact_us/>*/}
       </>
