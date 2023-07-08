@@ -1,7 +1,5 @@
 import './style/slider.css';
 import navbar_logo_img from "./image/logo-aisha.png";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import Navbar from "./Navbar";
 
 const About_slider = () => {
@@ -43,7 +41,7 @@ const About_slider = () => {
                   </div>
               </div>
               {/*list-navbar-content*/}
-              hrllo
+
               {/*slider-text-colum-content*/}
               <div className="about-slider-text-colum-content">
                   <div className="container-fluid">
