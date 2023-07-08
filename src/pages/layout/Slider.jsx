@@ -3,6 +3,7 @@ import navbar_logo_img from './image/logo-aisha.png';
 import {Link} from "react-router-dom";
 import {faAngleRight, faArrowDown} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import Navbar from "./Navbar";
 
 const Slider = () => {
   return(
@@ -43,7 +44,7 @@ const Slider = () => {
                   </div>
               </div>
               {/*list-navbar-content*/}
-
+              <Navbar/>
               {/*slider-text-colum-content*/}
               <div className="slider-text-colum-content">
                   <div className="container-fluid">
